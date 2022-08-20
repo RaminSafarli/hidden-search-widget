@@ -4,4 +4,5 @@ const container = document.querySelector(".container");
 
 button.addEventListener("click", (e) => {
   container.classList.toggle("active");
+  input.focus();
 });
